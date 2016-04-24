@@ -56,3 +56,19 @@ Get info with `:i` -- e.g., `:i +`. (`infixl` means infix operator, left associa
 can be written:
 
     printInc2' n = (\plusTwo -> print plusTwo) (n + 2)
+
+## Parameters vs. Arguements
+
+In `sq x = x * x`, `x` is the _parameter_. If you call the function like `sq 13`, `13` is the _argument_.
+
+## Terms to Know
+
+* parameter
+* argument
+* expression
+* redex (reducible expression)
+* value
+* function
+* infix notation
+* operators (functions that are infix by default)
+* syntactic sugar
