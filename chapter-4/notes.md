@@ -21,3 +21,10 @@ If you want to check the sizes:
 * Rational -- arbitrary precision
 * Scientific -- more efficient than rational
 
+## Terms to know (section 4.8)
+
+* tuple
+* typeclass
+* data constructor
+* type constructor
+* data declarations
