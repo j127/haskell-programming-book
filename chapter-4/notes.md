@@ -28,3 +28,6 @@ If you want to check the sizes:
 * data constructor
 * type constructor
 * data declarations
+* type alias
+* arity
+* polymorphism (parametric or constrained)
