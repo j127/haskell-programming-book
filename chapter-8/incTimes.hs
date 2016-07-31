@@ -18,3 +18,19 @@ incTimes' times n = applyTimes times (+1) n
 f :: Bool -> Int
 f True = error "Grrr"
 f False = 0
+
+-- Without using bottom
+f' :: Bool -> Maybe Int
+f' False = Just 0
+f' _ = Nothing
+
+mc91 :: Int -> Int
+mc91 n
+    | n > 100 = n - 10
+    | n <= 100 = mc91 $ mc91 n + 11
+
+bFunction :: [Char] -> [Char]
+bFunction s = s ++ " blah blah"
+
+aFunction :: Float -> Float
+aFunction x = x + 1
